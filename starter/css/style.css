@@ -170,11 +170,11 @@ a:hover {
   align-self: flex-start;
   justify-content: flex-end;
   font-weight: bolder;
-  font-size: 48px;
+  font-size: 40px;
   padding-left: 200px;
   padding-right: 15px;
   height: 100%;
-  width: 350px;
+  width: 300px;
   text-align: right;
   color: var(--blueish-color);
   border-right: 5px solid var(--border-right-color);
