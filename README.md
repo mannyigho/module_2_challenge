@@ -16,9 +16,9 @@ To view this project, open the index.html page inside the project folder in a br
 
 ## Usage
 
-Once the page is viewed on a browser, you are expected to see a resemblance of the screenshot below
+Once the page is viewed on a browser, you are expected to see a resemblance of the screenshot below.
 
-    ![alt text](./images/screenshot.png)
+    ![alt text](./starter/images/screenshot.png)
 
 ## Credits
 
