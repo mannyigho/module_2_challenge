@@ -155,6 +155,7 @@ height: 250px;
 background-image: url('../images/02-portfolio-4.jpg');
 background-position: left;
 background-repeat: no-repeat;
+position: relative;
 }
 
 .led-wall-box, .calculator-box, .pastel-puzzle-box, .run-buddy-box {
