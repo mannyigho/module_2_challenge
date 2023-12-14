@@ -192,11 +192,16 @@ position: relative;
 .work-content-text {
   color: var(--border-right-color);
   background-color: var(--hero-text-bg-color);
-  width: 180px;
+  padding: 5px 10px;
   text-align: center;
   position: absolute;
   bottom: 10px;
+  font-size: 13px;
 
+}
+
+.work-content-text > h3 {
+  font-size: 18px;
 }
 
 
