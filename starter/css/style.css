@@ -137,18 +137,70 @@ a:hover {
 }
 
 .work-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "surf-report-box surf-report-box" 
-                       "surf-report-box surf-report-box";
-  grid-column-gap: 30px;
-  grid-row-gap: 0px;
-  margin: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  gap: 14px;
+}
+
+.work-content-item {
+  border: 2px solid var(--hero-text-bg-color);
 }
 
 .surf-report-box {
-  grid-area: 'surf-report-box';
+width: 100%;
+height: 250px;
+background-image: url('../images/02-portfolio-4.jpg');
+background-position: left;
+background-repeat: no-repeat;
+}
+
+.led-wall-box, .calculator-box, .pastel-puzzle-box, .run-buddy-box {
+  width: 49%;
+  height: 125px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.led-wall-box {
+  background-image: url('../images/02-portfolio-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.calculator-box {
+  background-image: url('../images/02-portfolio-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pastel-puzzle-box {
+  background-image: url('../images/02-portfolio-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.run-buddy-box {
+  background-image: url('../images/02-run-buddy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.work-content-text {
+  color: var(--border-right-color);
+  background-color: var(--hero-text-bg-color);
+  width: 180px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+
+}
+
+.surf-report-text {
+  position: absolute;
+  bottom: -35px;
 }
 
 .contact {
@@ -174,7 +226,7 @@ a:hover {
   padding-left: 200px;
   padding-right: 15px;
   height: 100%;
-  width: 300px;
+  width: 350px;
   text-align: right;
   color: var(--blueish-color);
   border-right: 5px solid var(--border-right-color);
